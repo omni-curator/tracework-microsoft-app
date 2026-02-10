@@ -1,0 +1,41 @@
+{
+  "name": "TraceWork Studio",
+  "short_name": "TraceWork",
+  "description": "Professional print job management and tracing application",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity"],
+  "shortcuts": [
+    {
+      "name": "Upload Print Job",
+      "short_name": "Upload",
+      "description": "Upload a new print job",
+      "url": "/?action=upload",
+      "icons": [
+        {
+          "src": "/icons/icon-512.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
